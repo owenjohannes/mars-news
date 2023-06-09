@@ -25,14 +25,14 @@ The analysis is performed using splinter, BeautifulSoup, Matplolib and Pandas.
 4. Creates a Beautiful Soup object by parsing the HTML of the visited page.       
 5. Extracts all rows of data from the table.      
 6. Creates an empty list to store the rows of data.      
-7. Loops through the scraped data to create a list of rows.
-Extracts the header fields from the table.
-Creates a Pandas DataFrame using the list of rows and the list of column names.
-Confirms the DataFrame was created successfully and displays the first few rows.
-Examines the data type of each column in the DataFrame.
-Changes the data types of specific columns for data analysis purposes.
-Confirms the type changes were successful by examining the data types again.
-Performs various data analysis tasks, including counting the number of months on Mars, determining the amount of Martian days' worth of data, calculating the average low temperature by month, and calculating the average pressure by Martian month.
-Generates visualizations based on the analysis, including bar plots for average temperature by month and average pressure by month, as well as a line plot for minimum temperature by the number of terrestrial days.
-Writes the data to a CSV file named mars_temperature_data.csv.
-Quits the browser.
+7. Loops through the scraped data to create a list of rows.       
+8. Extracts the header fields from the table.       
+9. Creates a Pandas DataFrame using the list of rows and the list of column names.       
+10. Confirms the DataFrame was created successfully and displays the first few rows.       
+11. Examines the data type of each column in the DataFrame.    
+12. Changes the data types of specific columns for data analysis purposes.       
+13. Confirms the type changes were successful by examining the data types again.       
+14. Performs various data analysis tasks, including counting the number of months on Mars, determining the amount of Martian days' worth of data, calculating the average low temperature by month, and calculating the average pressure by Martian month.        
+15. Generates visualizations based on the analysis, including bar plots for average temperature by month and average pressure by month, as well as a line plot for minimum temperature by the number of terrestrial days.       
+16. Writes the data to a CSV file named mars_temperature_data.csv.        
+17. Quits the browser.
